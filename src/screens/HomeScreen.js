@@ -18,7 +18,7 @@ const HomeScreen = ({navigation}) => { // {navigation} === props.navigation
         title="Go to Image Demo" 
       /> 
       <Button 
-        onPress = {() => navigation.navigate('Counter')}
+        onPress = {() => navigation.navigate('CounterReducer')}
         title="Go to Counter Demo" 
       />
       <Button 
